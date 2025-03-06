@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymupdf = "*"
+langchain-core = "*"
+langchain-text-splitters = "*"
+langchain-community = "*"
+langchain = "*"
+fastapi = "*"
+uvicorn = "*"
+sentence-transformers = "*"
+pinecone = "*"
+streamlit = "*"
+ollama = "*"
+pinecone-client = "*"
+langchain-pinecone = "*"
+langchain-ollama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.9"
