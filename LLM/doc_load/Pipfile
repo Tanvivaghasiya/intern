@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-community = "*"
+lxml = "*"
+unstructured = {extras = ["all"], version = "*"}
+langchain = "*"
+openai = "*"
+faiss-cpu = "*"
+pinecone-client = "*"
+pymupdf = "*"
+pypdf = "*"
+pdfminer = "*"
+python-docx = "*"
+beautifulsoup4 = "*"
+requests = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.9"
