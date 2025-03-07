@@ -1,0 +1,25 @@
+LLMs are advanced artificial intelligence systems designed to understand, generate, and manipulate human language. They are built using deep learning architectures, such as transformers, and trained on vast datasets comprising text from books, websites, and other sources
+Examples:
+GPT-4 (OpenAI): Generates human-like text for diverse applications.
+PaLM (Google): Excels in reasoning and multilingual tasks.
+LLaMA (Meta): Focuses on open-access, efficient LLM development.
+LLMs are deep learning models trained on massive amounts of text data to learn the structure, meaning, and patterns of human language. They are built to predict and generate text based on the input they receive.
+
+Importance:
+LLMs are important because they power applications such as chatbots, machine translation, code generation, and content creation, making them fundamental to modern AI-driven communication and automation.
+Key Concepts: slackTokens, embeddings, pre-training, and fine-tuning
+
+Slack tokens:
+Slack tokens are special tokens inserted into sequence to fill unused positions when processing in text batches.
+ It ensures that all sequence in batch have the same size.
+Working:
+After tokenizing text some sentence ar might be shorter then the maximum length so slack tokens are indeed to these shorter sequence so the model’s input remains uniform.
+It doesn’t contain any semantic meaning,it serves as a placeholder.
+Importance:
+Batch processing: 
+Model consistency: prevents errors that arise from variable length
+
+2. Embedding:
+Embeddings are vector representation of words or tokens in high-dimensional space.
+It allows LLMs to understand semantic relationship between words.
+Ex: king and queen have closer representation in vector space.
